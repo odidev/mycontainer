@@ -6,6 +6,8 @@ install: ./cmds/ci/install.sh
 script:
   - ./cmds/ci/script.sh
 after_script: ./cmds/ci/after_script.sh
+arch:
+  - arm64
 env:
   - secure: sN4SdEFQwAr2gNb2pmyIslaCmVPiEfcgvBTY2+74q4Xv/lgbRqftVrbP0pO7lDTnJpPklqowsR56tsqumZ3H3MA0LOwA0fCFCWG4DkTa4BqrAso2pq6ECwWyrDAzFa09gp5yqGxJox3vmgh4AaUx8pMT6P/VRsbd/nCGi7JI/6c=
 cache:
